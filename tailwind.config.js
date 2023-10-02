@@ -26,11 +26,16 @@ module.exports = {
         sm: '640px',
         md: '768px',
         lg: '960px',
-        xl: '1200px'
+        xl: '1200px',
+        xxl: '1300px',
+        xxxl: '1500px'
       },
       colors:{
         primary: '#0a0a0a',
-        accent: '#B809C3'
+        accent: '#B809C3',
+        white: '#FFFFFF',
+        black: '#0F0E0E',
+        green: '#004225'
       }
       
     },
