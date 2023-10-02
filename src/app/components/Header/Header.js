@@ -1,5 +1,7 @@
+"use client"
+
 import React from "react";
-import Image from "next/image";
+import {Link} from "react-scroll";
 
 export default function Header() {
   return (
@@ -9,7 +11,7 @@ export default function Header() {
           <a href="#">
             <p className="p">Douglas <span className="text-green">Rondon</span></p>
           </a>
-          <button className="btn btn-sm">Contáctame</button>
+          <Link to="contact" className="btn btn-sm flex items-center cursor-pointer" activeClass='active' smooth={true} spy={true}>Contáctame</Link>
         </div>
       </div>
     </header>

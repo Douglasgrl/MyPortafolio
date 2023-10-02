@@ -7,7 +7,7 @@ import {Link} from 'react-scroll'
 const experiences = [
   {
     name: 'SoyHenry Bootcamp - 2023',
-    description: 'Completé el bootcamp de SoyHenry, donde adquirí habilidades como Full Stack Developer y aprendí a trabajar en equipo para desarrollar aplicaciones web de alta calidad.' 
+    description: 'Completé el bootcamp de SoyHenry, donde adquirí habilidades como Full Stack Developer.'
   },
   {
     name: 'Hyper Events - 2023',
@@ -28,7 +28,7 @@ const experiences = [
 export default function Experiencies() {
   return (
     <section id='skills' className='section lg:pb-40'>
-      <div className='container mx-auto xxxl:px-48'>
+      <div className='container mx-auto px-6 xxxl:px-48'>
       <div className='flex flex-col lg:flex-row'>
 
       <motion.div 

@@ -15,7 +15,7 @@
 }
 
 .btn:hover{
-  background-color: #3bace2;
+  background-color: #00796B;
 }
 
 *{
@@ -53,7 +53,7 @@
   }
 
   .btn{
-    @apply rounded-md font-primary text-white font-medium
+    @apply rounded-md font-primary flex items-center justify-center text-white font-medium
   }
 
   .btn-sm{

@@ -57,7 +57,7 @@ export default function Banner() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-6 mx-auto xl:mx-0"
+              className="flex max-w-max gap-x-2 items-center mb-6 mx-auto xl:mx-0"
             >
               <a href="https://www.linkedin.com/in/douglasgrl27" className="btn btn-lg flex items-center" target="_blank">Contáctame</a>
 

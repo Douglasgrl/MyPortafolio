@@ -5,9 +5,9 @@ import { fadeIn } from "../../variants";
 
 export default function Contact() {
   return (
-    <div id="contact" className="section py-16 lg:section xxl:px-36 xxxl:px-48">
+    <div id="contact" className="section px-6 py-16 lg:section xxl:px-36 xxxl:px-48">
       <div className="container mx-auto">
-        <div className="flex flex-col mb-10 lg:flex-row">
+        <div className="flex flex-col mb-20 lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -33,21 +33,20 @@ export default function Contact() {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-10 p-6 items-start"
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
+              className="font-secondary bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
               placeholder="Su nombre"
               type="text"
             ></input>
 
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
+              className="font-secondary bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
               placeholder="Su correo electrónico"
               type="text"
             ></input>
 
             <textarea
-              className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-green transition-all resize-none mb-6"
-              placeholder="
-              Su mensaje"
+              className="font-secondary bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-green transition-all resize-none mb-6"
+              placeholder="Su mensaje"
             ></textarea>
 
             <button className="btn btn-lg">Enviar mensaje</button>

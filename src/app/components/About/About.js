@@ -36,10 +36,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section lg:px-4 xl:px-28 xxl:px-36 xxxl:px-48"
+      className="section lg:px-4 lg:pt-96 xl:pt-0 lg:mx-auto xl:px-16 xxl:px-36 xxxl:px-48"
       ref={ref}
     >
-      <div className="container mx-auto flex">
+      <div className="container mx-auto flex px-6">
         <div className="flex flex-col gap-y-10 mb-40 lg:flex-row lg:gap-y-0 h-screen xl:items-center xl:gap-12 xl:mb-20">
           <div className="flex-1 lg:w-[50rem]">
             <motion.h2
@@ -65,7 +65,7 @@ export default function About() {
               últimas tendencias.
             </motion.h3>
 
-            <div className="flex gap-x-4 items-center">
+            <div className="flex gap-x-2 items-center text-center">
               <motion.a
               href="https://www.linkedin.com/in/douglasgrl27"
               target="_blank"
@@ -77,15 +77,16 @@ export default function About() {
               >
                 Contáctame
               </motion.a>
-              <motion.button
+              <motion.a
+                href='/Cv-Douglas.pdf' download
                 variants={fadeIn("right", 0.7)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.3 }}
-                className="btn btn-lg"
+                className="btn btn-lg flex items-center"
               >
                 Descargar CV
-              </motion.button>
+              </motion.a>
             </div>
           </div>
           <div className="lg:w-[50%] lg:text-center xl:text-center">

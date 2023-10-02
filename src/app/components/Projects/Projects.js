@@ -10,12 +10,12 @@ import Image from 'next/image'
 export default function Projects() {
   return (
     <section id='projects' className='section'>
-      <div className='container mx-auto xxl:px-56 lg:mb-20'>
+      <div className='container mx-auto px-6 xxl:px-56 lg:mb-20'>
         <div className='flex flex-col lg:flex-row gap-x-10'>
           <motion.div variants={fadeIn("right", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-12 mb-5 lg:mb-0'>
+                viewport={{ once: false, amount: 0.3 }} className='flex-1 flex flex-col gap-y-[5.8rem] mb-5 lg:mb-0 xxl:gap-y-12'>
 
             <div>
               <h2 className='h2 leading-tight text-green'>Mis Últimos <br/> 
