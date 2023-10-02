@@ -21,16 +21,17 @@ export default function About() {
   });
 
   const iconos = [
-    <IconHtml />,
-    <IconCss />,
-    <IconJavaScript />,
-    <IconNext />,
-    <IconRedux />,
-    <IconTailwind />,
-    <IconNode />,
-    <IconSql />,
-    <IconGit />,
-  ];
+      { icon: <IconHtml /> },
+      { icon: <IconCss /> },
+      { icon: <IconJavaScript /> },
+      { icon: <IconNext /> },
+      { icon: <IconRedux /> },
+      { icon: <IconTailwind /> },
+      { icon: <IconNode /> },
+      { icon: <IconSql /> },
+      { icon: <IconGit /> },
+    ];
+
 
   return (
     <section
@@ -64,7 +65,7 @@ export default function About() {
               últimas tendencias.
             </motion.h3>
 
-            <div className="flex gap-x-6 items-center">
+            <div className="flex gap-x-4 items-center">
               <motion.a
               href="https://www.linkedin.com/in/douglasgrl27"
               target="_blank"
@@ -83,7 +84,7 @@ export default function About() {
                 viewport={{ once: false, amount: 0.3 }}
                 className="btn btn-lg"
               >
-                Descargar Cv
+                Descargar CV
               </motion.button>
             </div>
           </div>
@@ -97,7 +98,8 @@ export default function About() {
               className="flex flex-row justify-center 
             flex-wrap gap-5 lg:mx-auto"
             >
-              {iconos.map((icon, index) => {
+              {iconos && iconos.map((item, index) => {
+                console.log(index)
                 return (
                   <motion.div
                   variants={fadeIn("left", 0.7)}
@@ -107,7 +109,7 @@ export default function About() {
                     className="flex items-center justify-center shadow-lg h-[5rem] w-[5rem] bg-slate-50 rounded-md md:h-[5.7rem] md:w-[5.7rem] lg:h-[6rem] lg:w-[6rem]"
                     key={index}
                   >
-                    {icon}
+                    {item.icon}
                   </motion.div>
                 );
               })}
