@@ -35,6 +35,10 @@ export default function Projects() {
               <div className='absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50'>
                 <span className='p text-white'>Hyper Events</span>
               </div>
+
+              <div className='absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50'>
+              <a href='https://hyperevent-fe.vercel.app/' target='_blank' className='p text-white hover:text-white/70'>Ver mas +</a>
+              </div>
             </div>
 
 
@@ -57,6 +61,10 @@ export default function Projects() {
               <div className='absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50'>
                 <span className='p text-white'>Dogs Api</span>
               </div>
+
+              <div className='absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50'>
+                <a href='#' className='p text-white hover:text-white/70'>Ver mas +</a>
+              </div>
             </div>
 
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -69,6 +77,10 @@ export default function Projects() {
 
               <div className='absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50'>
                 <span className='p text-white'>Portafolio Personal</span>
+              </div>
+
+              <div className='absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50'>
+                <a href='https://my-portafolio-theta.vercel.app/' target='_blank' className='p text-white hover:text-white/70'>Ver mas +</a>
               </div>
             </div>
 

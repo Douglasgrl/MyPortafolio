@@ -32,22 +32,31 @@ export default function Contact() {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-10 p-6 items-start"
           >
+            <label className="w-[100%] pt-3"><span className="font-primary text-[1.4rem]">Nombre
+              </span>
             <input
-              className="font-secondary bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
-              placeholder="Su nombre"
+              className="font-secondary pt-1 pb-1 bg-transparent border-b outline-none w-full placeholder:text-white focus:border-green transition-all"
+              placeholder="Ingrese su nombre"
+              type="text"
+              ></input>
+              </label>
+
+              <label className="w-[100%] pt-3"><span className="font-primary text-[1.4rem]">Correo electrónico
+              </span>
+            <input
+              className="font-secondary pt-1 pb-1 bg-transparent border-b outline-none w-full placeholder:text-white focus:border-green transition-all"
+              placeholder="Ingrese su correo electrónico"
               type="text"
             ></input>
+            </label>
 
-            <input
-              className="font-secondary bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green transition-all"
-              placeholder="Su correo electrónico"
-              type="text"
-            ></input>
-
+            <label className="w-[100%] pt-3"><span className="font-primary text-[1.4rem]">Mensaje
+              </span>
             <textarea
-              className="font-secondary bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-green transition-all resize-none mb-6"
-              placeholder="Su mensaje"
+              className="font-secondary pt-1 bg-transparent border-b py-4 outline-none w-full placeholder:text-white focus:border-green transition-all resize-none mb-6"
+              placeholder="Ingrese su mensaje"
             ></textarea>
+            </label>
 
             <button className="btn btn-lg">Enviar mensaje</button>
           </motion.form>
