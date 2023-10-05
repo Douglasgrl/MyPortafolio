@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container mx-auto">
         <div className="flex flex-col mb-20 lg:flex-row">
           <motion.div
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -26,7 +26,7 @@ export default function Contact() {
           </motion.div>
 
           <motion.form
-            variants={fadeIn("left", 0.3)}
+            variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}

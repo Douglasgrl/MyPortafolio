@@ -42,10 +42,10 @@ export default function Banner() {
               />
             </motion.div>
             <motion.p
-              variants={fadeIn("up", 0.4)}
+              variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.5 }}
               className="mb-8 max-w-lg mx-auto xl:mx-0 p"
             >
               Desarrollador full stack orientado al diseño frontend apasionado
@@ -53,10 +53,10 @@ export default function Banner() {
             </motion.p>
 
             <motion.div
-              variants={fadeIn("up", 0.5)}
+              variants={fadeIn("up", 0.4)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.5 }}
               className="flex max-w-max gap-x-2 items-center mb-6 mx-auto xl:mx-0"
             >
               <a href="https://www.linkedin.com/in/douglasgrl27" className="btn btn-lg flex items-center" target="_blank">Contáctame</a>
@@ -66,7 +66,7 @@ export default function Banner() {
               </a>
             </motion.div>
 
-            <motion.div variants={fadeIn("up", 0.6)}
+            <motion.div variants={fadeIn("up", 0.5)}
               initial='hidden'
               whileInView={'show'}
               viewport={{once: false, amount: 0.7}} className="flex items-center text-[2rem] gap-x-6 max-w-max mx-auto xl:mx-0">

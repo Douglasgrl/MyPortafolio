@@ -35,7 +35,7 @@ export default function Experiencies() {
       variants={fadeIn("right", 0.3)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.3 }}>
+      viewport={{ once: false, amount: 0.2 }}>
         <h2 className='h2 text-green mb-6'>EXPERIENCIAS.</h2>
         <p className='p max-w-[455px]'>Soy un programador full Stack con experiencia en desarrollo web.</p>
 
@@ -44,7 +44,7 @@ export default function Experiencies() {
         </button>
       </motion.div>
 
-      <motion.div variants={fadeIn("left", 0.5)}
+      <motion.div variants={fadeIn("left", 0.3)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.3 }} className='flex-1'>

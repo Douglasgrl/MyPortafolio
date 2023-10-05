@@ -36,14 +36,14 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section lg:px-4 lg:pt-96 xl:pt-0 lg:mx-auto xl:px-16 xxl:px-36 xxxl:px-48"
+      className="section lg:px-4 lg:pt-96 xl:pt-20 lg:mx-auto xl:px-16 xxl:px-36 xxxl:px-48"
       ref={ref}
     >
       <div className="container mx-auto flex px-6">
         <div className="flex flex-col gap-y-10 mb-40 lg:flex-row lg:gap-y-0 h-screen xl:items-center xl:gap-12 xl:mb-20">
-          <div className="flex-1 lg:w-[50rem]">
+          <div className="xl:flex-1 lg:w-[50rem]">
             <motion.h2
-              variants={fadeIn("right", 0.4)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
@@ -52,7 +52,7 @@ export default function About() {
               Acerca de mí.
             </motion.h2>
             <motion.h3
-              variants={fadeIn("right", 0.5)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
@@ -69,7 +69,7 @@ export default function About() {
               <motion.a
               href="https://www.linkedin.com/in/douglasgrl27"
               target="_blank"
-                variants={fadeIn("right", 0.6)}
+                variants={fadeIn("right", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.3 }}
@@ -79,7 +79,7 @@ export default function About() {
               </motion.a>
               <motion.a
                 href='/Cv-Douglas.pdf' download
-                variants={fadeIn("right", 0.7)}
+                variants={fadeIn("right", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.3 }}
@@ -90,7 +90,7 @@ export default function About() {
             </div>
           </div>
           <div className="lg:w-[50%] lg:text-center xl:text-center">
-            <motion.h2  variants={fadeIn("left", 0.6)}
+            <motion.h2  variants={fadeIn("left", 0.1)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
@@ -103,7 +103,7 @@ export default function About() {
                 console.log(index)
                 return (
                   <motion.div
-                  variants={fadeIn("left", 0.7)}
+                  variants={fadeIn("left", 0.2)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: false, amount: 0.3 }}
