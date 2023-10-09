@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-import ImagenD from "../../utils/assets/descarga.jpeg";
+import ImagenD from "../../utils/assets/IMG_23.jpg";
 import Image from "next/image";
 
 export default function Banner() {
