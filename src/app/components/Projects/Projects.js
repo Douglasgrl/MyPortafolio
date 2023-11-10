@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
 import ImagePi from '../../utils/assets/Screenshot_1.png'
 import ImageHyper from '../../utils/assets/HyperEvents.png'
-import ImagePortafolio from '../../utils/assets/Portafolio.png'
+import ImagePortafolio from '../../utils/assets/Fronted.png'
 import Image from 'next/image'
 
 export default function Projects() {
@@ -76,11 +76,11 @@ export default function Projects() {
               </div>
 
               <div className='absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50'>
-                <span className='p text-white'>Portafolio Personal</span>
+                <span className='p text-white'>Aquí podrás visualizar mis proyectos.</span>
               </div>
 
               <div className='absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50'>
-                <a href='https://my-portafolio-theta.vercel.app/' target='_blank' className='p text-white hover:text-white/70'>Ver mas +</a>
+                <a href='https://www.frontendmentor.io/profile/Douglasgrl' target='_blank' className='p text-white hover:text-white/70'>Ver mas +</a>
               </div>
             </div>
 
