@@ -10,16 +10,16 @@ import Image from "next/image";
 export default function ViewMore() {
   return (
     <section id="projects" className="section">
-      <div className="container mx-auto px-6 xxl:px-56 lg:mb-20 md:flex md:justify-center">
+      <div className="container mx-auto px-6 xxl:px-56 md:flex md:justify-center">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-[3.7rem] mb-5 lg:mb-0 lg:gap-y-[1.5rem] xl:gap-y-[1rem] xxxl:gap-y-[1.6rem]"
+            className="flex-1 flex flex-col gap-y-[3.7rem] mb-5 lg:mb-0 lg:gap-y-[1.5rem] xl:gap-y-[1rem]"
           >
-            <div>
+            <div className="xl:h-[244px] xxl:h-[200px] xxxl:h-[244px] xl:mb-8">
               <h2 className="h2 leading-tight text-green">
                 Aca podra visualizar <br />
                 mas trabajos
