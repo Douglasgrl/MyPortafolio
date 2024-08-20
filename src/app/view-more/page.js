@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import ImagePi from "../utils/assets/Screenshot_3.png";
+import ImageWork from "../utils/assets/image-4-desktop.png";
 import ImageHyper from "../utils/assets/hyper-events.png";
 import ImagePortafolio from "../utils/assets/Fronted.png";
 import Image from "next/image";
@@ -35,7 +35,7 @@ export default function ViewMore() {
 
               <Image
                 className="group-hover:scale-125 transition-all duration-500 w-full"
-                src={ImagePi}
+                src={ImageHyper}
                 width={400}
                 height={400}
                 alt="HyperEvents"
@@ -47,12 +47,12 @@ export default function ViewMore() {
               </div>
 
               <div className="absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50">
-                <span className="p text-white">Fronted Mentor</span>
+                <span className="p text-white">HyperEvents</span>
               </div>
 
               <div className="absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50">
                 <a
-                  href="https://douglasgrl.github.io/FrontedMentor-13/"
+                  href="https://hyperevent-fe.vercel.app/"
                   target="_blank"
                   className="p text-white hover:text-white/70"
                 >
@@ -74,7 +74,7 @@ export default function ViewMore() {
 
               <Image
                 className="group-hover:scale-125 transition-all duration-500 w-full"
-                src={ImageHyper}
+                src={ImageWork}
                 width={400}
                 height={400}
                 alt="HyperEvents"
@@ -86,12 +86,12 @@ export default function ViewMore() {
               </div>
 
               <div className="absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50">
-                <span className="p text-white">HyperEvents</span>
+                <span className="p text-white">Workitfy</span>
               </div>
 
               <div className="absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50">
                 <a
-                  href="https://hyperevent-fe.vercel.app/"
+                  href="https://workitfy.maylandlabs.com/"
                   target="_blank"
                   className="p text-white hover:text-white/70"
                 >

@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import ImagePi from "../../utils/assets/Screenshot-2.png";
-import ImageHyper from "../../utils/assets/image-4-desktop.png";
+import ImageHyper from "../../utils/assets/padelink.png";
 import ImagePortafolio from "../../utils/assets/Screenshot_4.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,12 +48,12 @@ export default function Projects() {
               </div>
 
               <div className="absolute -bottom-full left-8 group-hover:bottom-5 transition-all duration-700 z-50">
-                <span className="p text-white">Workitfy</span>
+                <span className="p text-white">Padelink</span>
               </div>
 
               <div className="absolute -top-full right-6 group-hover:top-[1rem] transition-all duration-700 z-50">
                 <a
-                  href="https://workitfy.maylandlabs.com/"
+                  href="https://padelink.com.ar/"
                   target="_blank"
                   className="p text-white hover:text-white/70"
                 >
