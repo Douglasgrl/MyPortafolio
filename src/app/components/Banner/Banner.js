@@ -14,8 +14,8 @@ export default function Banner() {
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center pb-20 lg:px-4 xl:px-28 xxl:px-36 xxxl:px-48"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-10 lg:flex-row lg:gap-x-12">
-          <div className="flex-1 text-center font-secondary lg:text-left">
+        <div className="">
+          <div className="flex flex-col items-center text-center font-secondary lg:text-left">
             <motion.h1
               variants={fadeIn("up", 0.2)}
               initial="hidden"
@@ -80,7 +80,7 @@ export default function Banner() {
             </motion.div>
           </div>
 
-          <motion.div variants={fadeIn("down", 0.5)}
+          {/* <motion.div variants={fadeIn("down", 0.5)}
               initial='hidden'
               whileInView={'show'}
               className="rounded-full hidden lg:flex flex-1 max-w-[320px] lg:max-w-[350px] xl:max-w-[450px] xl:justify-center xxl:max-w-[482px]">
@@ -91,7 +91,7 @@ export default function Banner() {
               width={400}
               height={400}
             />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
